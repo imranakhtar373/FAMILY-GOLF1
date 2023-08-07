@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: montserrat;
+    font-family: sans-serif;
+   color: #fff;
 }
 
 html , body{
@@ -15,6 +16,7 @@ html , body{
     background-color: red;
     display: flex;
     align-items: center;
+    gap: 50px;
     justify-content: flex-start;
     padding: 0 150px;
 }
