@@ -23,6 +23,14 @@ html , body{
     z-index: 99;
 
 }
+#cursor-blur{
+    height: 300px;
+    width: 300px;
+    background-color: #95C11E;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+}
 #nav {
     height: 145px;
     width:100%;
