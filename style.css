@@ -207,7 +207,7 @@ video{
     background-position: center;
     overflow: hidden;
     transition: all ease 0.6s;
-    
+
   }
   #card1 {
     background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-toptracer-1024x682.jpg?strip=all&lossy=1&sharp=1&ssl=1);
@@ -241,4 +241,30 @@ video{
 }
 .card:hover .overlay{
     opacity: 1;
+}
+.card:hover{
+    transform: rotate3d(-1,1,0,20deg);
+}
+#green-div{
+height: 30vh;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background:linear-gradient(to left bottom, #119f3a 0%, #a3d421 80%) ;
+}
+
+#green-div h4{
+    width: 50%;
+    line-height: 40px;
+    font-weight: 900;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+#green-div img{
+    height: 100%;
+    object-fit: cover;
+    width:14%;
 }
